@@ -1,0 +1,101 @@
+.page {
+  padding: 24px;
+  text-align: left;
+}
+
+.back {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.layout {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 360px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.name {
+  font-size: 28px;
+  margin: 0 0 8px;
+  text-align: left;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0 0 12px;
+}
+
+.description {
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+
+.inStock {
+  color: #1a7f37;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.outOfStock {
+  color: #c4302b;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.purchaseRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quantityLabel {
+  font-size: 14px;
+}
+
+.quantityInput {
+  width: 64px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  opacity: 0.9;
+}
+
+.confirmation {
+  margin-top: 16px;
+  color: #1a7f37;
+}

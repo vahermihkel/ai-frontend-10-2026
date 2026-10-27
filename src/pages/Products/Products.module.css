@@ -1,0 +1,16 @@
+.page {
+  padding: 24px;
+  text-align: left;
+}
+
+.heading {
+  font-size: 28px;
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}

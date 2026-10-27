@@ -1,0 +1,105 @@
+.page {
+  padding: 24px;
+  text-align: left;
+}
+
+.list {
+  list-style: none;
+  margin: 24px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.details {
+  flex: 1;
+  min-width: 140px;
+}
+
+.name {
+  color: var(--text-h);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.unitPrice {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.quantityField {
+  display: flex;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.quantityInput {
+  width: 56px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.lineTotal {
+  width: 80px;
+  text-align: right;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #c4302b;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.summary {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.subtotal {
+  font-size: 18px;
+}
+
+.note {
+  font-size: 13px;
+  margin: 8px 0 16px;
+}
+
+.checkoutButton {
+  padding: 12px 24px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}

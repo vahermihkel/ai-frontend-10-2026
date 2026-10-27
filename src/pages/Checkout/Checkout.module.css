@@ -1,0 +1,83 @@
+.page {
+  padding: 24px;
+  text-align: left;
+}
+
+.layout {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.form {
+  flex: 2;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.disclaimer {
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.submitButton {
+  margin-top: 16px;
+  padding: 12px 24px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.summary {
+  flex: 1;
+  min-width: 220px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.summaryHeading {
+  text-align: left;
+}
+
+.summaryList {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.summaryItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryTotal {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin: 0;
+}
